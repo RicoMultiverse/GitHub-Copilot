@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "customcommands",
+  "version": "${version}",
+  "name": "Custom Commands Mod",
+  "description": "Um mod que permite criar comandos personalizados com funcionalidades avançadas",
+  "authors": ["RicoMultiverse"],
+  "contact": {
+    "homepage": "https://github.com/RicoMultiverse",
+    "sources": "https://github.com/RicoMultiverse/GitHub-Copilot"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.customcommands.CustomCommandsMod"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
